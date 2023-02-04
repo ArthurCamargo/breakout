@@ -4,7 +4,8 @@
 local world = require('world')
 local entities = {
     paddle = require('entities/paddle'),
-    ball = require('entities/ball')
+    ball = require('entities/ball'),
+    boundary = require('entities/boundary-top')
 }
 
 -- Boolean to keep track of whether our game is paused or not
